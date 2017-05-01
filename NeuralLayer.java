@@ -1,12 +1,3 @@
-/**
-1.	Import java.io.* and java.util.ArrayList.
-2.	Declare class NeuralLayer which implements Serializable.
-3.	Declare private in “layerIndex”, private Neurallayer “distantEnd”, and private array lists of Neurons “distantNeurons” and “neurons”.
-4.	Declare public constructor methods which set specified values and default values for each attribute.
-5.	Declare public getter and setter methods for each attribute.
-6.	Declare public method push which activates the push method for each Neuron in array list “neuron” via a for-loop.
-7.	Declare public method “buildLinks” which takes NeuralLayer “distantEnd” as an argument. Private attribute “distantEnd” is set to the value of argument “distantEnd”. “distantNeurons” is set to the value of the “getNeurons” method of “distantEnd”. For loop through “neurons” and “distantNurons”, execute “buildLink” for each Neuron in “neurons” with each neuron in “distantNurons” as an argument. 
-**/
 
 import java.io.*;
 import java.util.ArrayList;
