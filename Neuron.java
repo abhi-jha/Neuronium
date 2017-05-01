@@ -1,15 +1,4 @@
-/**
- *  
-1.	Import java.io.*, and java.util.ArrayList.
-2.	Declare public class Neuron which implements Serializable.
-3.	Declare private ints “neuronIndex” and “layerIndex”, along with private array lists of Axon objects “inputs” and “outputs”, private doubles “threshold” and “inputSum”, and private Boolean “excited”.
-4.	Declare constructor methods which set attributes to both and either specified values, or default values. 
-5.	Declare getter and setter methods for each attribute.
-6.	Declare method “compute” which adds all “output” values from each axon in array list “inputs” to “inputSum”. If “inputSum” is greater than or equal to “threshold”, “excited” is set to true. Otherwise, “excited” is set to false. Appropriate messages are formatted and printed for the user.
-7.	Declare public method “push”. If “layerIndex” is greater than 0, method “compute” is executed. Otherwise, for every output axon in array list “outputs” the “push” method is executed with “excited” as an argument.
-8.	Declare public method “buildLink” which takes a Neuron “distantEnd” as an argument. Declares a new Axon “link” with itself as an argument for “root” and “distantEnd” as an argument for “branch”. “link” is then added to “outputs”, and an appropriate message is formatted and printed for the user.
 
- */
 import java.io.*;
 import java.util.ArrayList;
 
