@@ -1,20 +1,3 @@
-/**
-1.	Import java.io.* and java.util.ArrayList.
-2.	Declare public class NeuralNetwork which implements Serializable.
-3.	Declare array list of NeuralLayers “layers”.
-4.	Declare constructor method which takes an int array “counts” as an argument and sets “layers” to a list of three NeuralLayer objects. The size of each NeuralLayer object is decided by array “counts”, depending on the element.
-5.	Declare method “buildLinks” which executes the “buildLinks” method for each element of “layers” and prints an appropriate message to the user.
-6.	Declare getLayers method which returns “layers”.
-7.	Declare “displaySatate” method which takes an int “layer” as an argument. 
-8.	Declare array list “neurons” as the output of method “getNeurons” of NeuralLayer “layer” of array list “layers”.
-9.	For loop from 0 to the size of “neurons.
-10.	Print the output of each Neurons “stateToString” method appropriately for the user.
-11.	Declare method “setThresholds” which takes an int “layer, and int array “range” and a double “threshold” as arguments.
-12.	Declare array list “neurons” as the output of the “getNeurons” method of the NeuralLayer object at element “layer” of array list “layers”.
-13.	For loop from “range” element 0 to “range” element 1.
-14.	At each iteration, get the Neuron at that element of “neurons” and set it’s threshold to the value of “threshold” via the “setThreshold” method.
-15.	Print an appropriate message for the user.
- */
 
 import java.io.*;
 import java.util.ArrayList;
