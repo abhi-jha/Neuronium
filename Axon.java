@@ -1,14 +1,4 @@
-/**
- * 
-1.	Import java.io.*.
-2.	Declare public class Axon, which implements Serializable.
-3.	Declare private int “double”, private doubles “output” and “weight”, private Neurons “root” and “Branch”, along with private Boolean “activated”.
-4.	Declare constructors that assign both specified and default values for all attributes.
-5.	Declare setters and getters for attributes.
-6.	Declare method “delete”, which removes references to the axon from the neurons stored in “branch” and “root”. Then set attributes “branch” and “root” to null.
-7.	Declare method “push”, which takes Boolean “state” as an argument. If either “branch” or “root” are null, delete the axon. Otherwise, set “activated” to true. If “state” is true, set “input” to 1. Otherwise, set “input” to 0. “output” is assigned the value of “input” times “weight”. Execute the “push” method for neuron at “branch”.
 
- */
 import java.io.*;
 
 public class Axon implements Serializable {
